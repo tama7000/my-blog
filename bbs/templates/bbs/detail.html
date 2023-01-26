@@ -4,11 +4,23 @@
         <meta charset='utf-8'>
         <title>paiza bbs</title>
         <style>body {padding: 10px;}</style>
+
+        <!--
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4500516857890735",
+          enable_page_level_ads: true
+         });
+        </script>
+        -->
+        
     </head>
     <body>
-        <h1>内容</h1>
+        <h1>サンプル</h1>
+        <h2>キーワード</h2>
         <p>{{ message }}</p>
-        <p>{{ article.content }}</p>
+        <p><h4>{{ article.content }}</h4></p>
         <p>{{ article.user_name }}</p>
         <p><a href="{% url 'bbs:index' %}">一覧</a></p>
     </body>

@@ -5,7 +5,7 @@ from .models import Article
 def index(request):
     articles = Article.objects.all()
     context = {
-        'message': 'トップページ',
+        
         'articles': articles,
     }
     return render(request, 'bbs/index.html', context)
